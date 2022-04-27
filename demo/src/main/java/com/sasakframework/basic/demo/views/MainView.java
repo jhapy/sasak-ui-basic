@@ -27,6 +27,7 @@ import com.vaadin.flow.component.UI;
 import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.icon.VaadinIcon;
+import com.vaadin.flow.component.page.AppShellConfigurator;
 import com.vaadin.flow.component.page.BodySize;
 import com.vaadin.flow.component.page.Push;
 import com.vaadin.flow.component.tabs.Tabs;
@@ -42,13 +43,13 @@ import java.util.List;
 
 @Route("")
 @PageTitle("COOK BIZ - Sasak UI Basic Demo")
-@Theme(Lumo.class)
+@Theme(themeClass = Lumo.class)
 //@Push(transport = Transport.WEBSOCKET_XHR)
 @PWA(name = "COOK BIZ - Sasak UI Basic Demo", shortName = "COOK BIZ")
 @BodySize(height = "100vh")
 @PreserveOnRefresh
 @SuppressWarnings("Duplicates")
-public class MainView extends DefaultMainView implements BeforeEnterObserver {
+public class MainView extends DefaultMainView implements AppShellConfigurator, BeforeEnterObserver {
 
     private Tabs tabs = new Tabs();
     private ModuleTabAdd newTabButton = new ModuleTabAdd();

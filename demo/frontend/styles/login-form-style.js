@@ -67,6 +67,9 @@ $_documentContainer.innerHTML = `
                 :host([focus-ring]) [part="input-field"] {
                     box-shadow: none;
                 }
+                ::slotted(:is(input, textarea):placeholder-shown) {
+                    var(--lumo-tint-30pct);
+                }
             </style>
         </template>
     </dom-module>
@@ -81,6 +84,9 @@ $_documentContainer.innerHTML = `
                 }
                 :host([focus-ring]) [part="input-field"] {
                     box-shadow: none;
+                }
+                ::slotted(:is(input, textarea):placeholder-shown) {
+                    var(--lumo-tint-30pct);
                 }
             </style>
         </template>

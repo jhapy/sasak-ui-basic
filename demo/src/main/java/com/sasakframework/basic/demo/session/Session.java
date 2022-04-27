@@ -56,7 +56,7 @@ public class Session {
 
     public static boolean isLoggedIn() {
 
-        if (UI.getCurrent().getSession().getAttribute("loggedIn") == null) {
+        if (UI.getCurrent() == null || UI.getCurrent().getSession() == null || UI.getCurrent().getSession().getAttribute("loggedIn") == null) {
             return false;
         }
 
