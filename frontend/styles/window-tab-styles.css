@@ -6,7 +6,7 @@
     border-top-right-radius: 7px;
     display: flex;
     width: 150px;
-    color: darkgray;
+    color: var(--lumo-primary-text-color);
 }
 
 .tab-item-text {
@@ -16,7 +16,6 @@
     margin-bottom: auto;
     flex-grow: 1;
     width: auto;
-    text-shadow: rgba(0, 0, 0, 0.65) 1px 2px 2px;
     font-weight: bolder;
 }
 
@@ -33,7 +32,7 @@
 }
 
 .tab-close-icon:hover {
-    color: yellow;
+    color: red;
 }
 
 .tab-container {

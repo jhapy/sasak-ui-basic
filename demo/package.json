@@ -1,4 +1,6 @@
 {
+  "name": "no-name",
+  "license": "UNLICENSED",
   "dependencies": {
     "@polymer/iron-icon": "3.0.1",
     "@polymer/iron-iconset-svg": "3.0.1",
@@ -115,8 +117,7 @@
     "construct-style-sheets-polyfill": "3.0.4",
     "date-fns": "2.28.0",
     "echarts": "5.3.0",
-    "lit": "2.1.4",
-    "lumo-css-framework": "^4.0.10"
+    "lit": "2.1.4"
   },
   "devDependencies": {
     "chokidar": "^3.5.0",
@@ -140,8 +141,6 @@
     "workbox-precaching": "6.5.0",
     "workbox-webpack-plugin": "6.5.0"
   },
-  "license": "UNLICENSED",
-  "name": "no-name",
   "vaadin": {
     "dependencies": {
       "@polymer/iron-icon": "3.0.1",
@@ -282,7 +281,7 @@
       "workbox-precaching": "6.5.0",
       "workbox-webpack-plugin": "6.5.0"
     },
-    "hash": "39a3349b4de612cbc0ff64f4d98e2e62b70a4f1851c9d0145d8fa498c7793527"
+    "hash": "289fc6799ea0cf25eeb1a93fb413199a073223e9f46e4b1c3e0f84f4c4e29c0b"
   },
   "overrides": {
     "@vaadin/bundles": "$@vaadin/bundles",
@@ -394,13 +393,12 @@
     "@vaadin/vaadin-crud": "$@vaadin/vaadin-crud",
     "@vaadin/vaadin-grid-pro": "$@vaadin/vaadin-grid-pro",
     "@vaadin/vaadin-rich-text-editor": "$@vaadin/vaadin-rich-text-editor",
-    "@polymer/polymer": "$@polymer/polymer",
-    "construct-style-sheets-polyfill": "$construct-style-sheets-polyfill",
-    "echarts": "$echarts",
-    "lumo-css-framework": "$lumo-css-framework",
     "@vaadin/common-frontend": "$@vaadin/common-frontend",
+    "construct-style-sheets-polyfill": "$construct-style-sheets-polyfill",
     "lit": "$lit",
+    "@polymer/polymer": "$@polymer/polymer",
     "chokidar": "$chokidar",
-    "date-fns": "$date-fns"
+    "date-fns": "$date-fns",
+    "echarts": "$echarts"
   }
 }

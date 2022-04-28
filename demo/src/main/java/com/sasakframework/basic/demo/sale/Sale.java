@@ -56,7 +56,7 @@ public class Sale {
 
         if ((getItemList() != null) && (!getItemList().isEmpty())) {
             for (SaleItem item : getItemList()) {
-                tc = Double.sum(tc, item.getCostPerPortion() * item.getQty());
+                tc = Double.sum(tc, ( item.getCostPerPortion()  == null ? 0 : item.getCostPerPortion() ) * item.getQty());
             }
         }
 

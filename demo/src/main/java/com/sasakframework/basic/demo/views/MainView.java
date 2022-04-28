@@ -67,7 +67,7 @@ public class MainView extends DefaultMainView implements AppShellConfigurator, B
 
         setAppTitle("COOK BIZ");
         setAppFooter("© 2021 Sasak UI");
-        setAppBackground("./images/pexels-flora-westbrook-1924815-small.jpg");
+        //setAppBackground("./images/pexels-flora-westbrook-1924815-small.jpg");
         setAppIcon("./icons/icon.png");
 
         if (Session.getCookBiz() == null) {
